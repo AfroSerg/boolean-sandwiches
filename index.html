@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Boolean Sandwiches</title>
+	<link rel="stylesheet" href="./css/tachyons.min.css">
+	<link rel="stylesheet" href="./css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="./favicon.ico">
+<style>
+
+</style>
+</head>
+<body class="-theme">
+	<!-- Non-small version, weird right? Keep scrolling... -->
+	<div class="-hide-xs">
+		<nav class="-nav fixed top-0 ttu -dark-blue w-100 tc z-1">
+			<img id="nav-home" data-id="0" class="-nav-brand -nav-btn" src="./images/bs.svg" alt="Boolean Sandwich Brand">
+			<span id="nav-about" class="-nav-item -nav-btn" data-id="1">About</span>
+			<span id="" class="-nav-item"><span class="mdi mdi-details"></span></span>
+			<span id="nav-team" class="-nav-item -nav-btn" data-id="2">Team</span>
+			<span id="" class="-nav-item"><span class="mdi mdi-details"></span></span>
+			<span id="nav-work" class="-nav-item strike" data-id="3">Work</span>
+			<span id="" class="-nav-item"><span class="mdi mdi-details"></span></span>
+			<span id="nav-contact" class="-nav-item -nav-btn" data-id="4">Contact</span>
+		</nav>
+		<div id="home-view" class="-view -active" data-id="0">
+			<!--<div class="-bg-strip"></div>-->
+			<div class="-header-text -fade-in tracked fixed -absolute-center h-100 fw1 tc f2">
+				Simple Elegance.
+			</div>
+			<img class="-header-img absolute" 
+				src="./images/bs-2.svg" alt="Boolean Sandwiches Logo">
+			<div class="-title absolute f1 ttu">
+				<div class="-title-p1  -acc">Boolean</div>
+				<div class="-title-p2 -thm">Sandwiches</div>
+				<div>
+					<a class="-ln mh3 -acc" href="">
+						<span class="mdi mdi-twitter mdi-36px"></span>
+					</a>
+					<a class="-ln mh3 -acc" href="">
+						<span class="mdi mdi-instagram mdi-36px"></span>
+					</a>
+					<a class="-ln mh3 -acc" href="">
+						<span class="mdi mdi-map-marker mdi-36px"></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+		<div id="about-view" class="-view" data-id="1">
+			<div class="f1 -thm tracked mt1 pt4 pb5"><b class="-acc">Boolean</b> Sandwiches</div>
+			<article class="-fade-in">
+				<div class="-article-title">A little something about us</div>
+				<p class="-article">
+					No, we don't make sandwiches ... maybe not unless you ask 
+					nicely, and that's exactly what we are.
+				</p><br/>	
+				<p class="-article">
+					<b class="-acc">Boolean Sandwiches</b>
+					is a tech company with it's eye currently on web development.
+					<br/><br/><br/>
+					Our minimalistic approach allows us to focus on what needs to
+					be done, trimming unnecessary bloat to produce stunning,
+					responsive websites that perform well and look good on any device.
+				</p><br/>
+				<p class="-article">
+					We can be a little weird sometimes, which is what makes us so great at
+					what we do.	
+					Oh, and feel free to call us 
+					<b class="-acc">Bit Sammies</b>,
+					we know we do.<br/><br/>
+					You made it this far? Looks like <i>someone</i> really like us. :)
+				</p>
+				<br/>
+			</article>
+		</div>
+		<div id="team-view" class="-view tc" data-id="2">
+			<div class="f1 tc tracked mt1 pt4 pb5">The Heart and Soul</div>
+			<div class="f3 tc pb4 -fade-in">
+				<span class="-thm f2"><b class="-acc">Boolean</b> Sandwiches</span>
+				currently consists of 2 hard-working employees.<br/><br/>
+				You can help keep our employees happy and reward<br/> 
+				them with your affection by clicking
+				<span class="mdi mdi-heart -hover-heart pointer"></span><br/>
+				and touching their hearts =)
+			</div>
+			<div class="-team-container">
+				<div class="-team-col -fade-in">
+					<div class="-avatar">
+						<img class="-team-img" src="./images/serg.jpg" alt="">
+						<div class="-team-title">
+							Employee A<br/>	<br/>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-twitter"></span></a>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-instagram"></span></a>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-github-face"></span></a>
+							<span data-id="Serg" class="pointer black -hover-heart -heart"><span class="mdi mdi-24px mdi-heart"></span></span>
+						</div>
+					</div>
+					<div class="-bio">
+						<p>
+							Employee A, commonly known as "Lesego Motea".
+							Works in Marketing, Web Design and Web Development.
+							This chap's a visionary.
+						</p>
+					</div>
+				</div>
+				<div class="-team-col -fade-in">
+					<div class="-avatar">
+						<img class="-team-img" style="filter: grayscale(54%);" src="./images/roy.jpg" alt="">
+						<div class="-team-title">
+							Employee B<br/><br/>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-twitter"></span></a>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-instagram"></span></a>
+							<a class="black -hover-thm" href=""><span class="mdi mdi-24px mdi-github-face"></span></a>
+							<span data-id="Roy" class="pointer black -hover-heart -heart"><span class="mdi mdi-24px mdi-heart"></span></span>
+						</div>
+					</div>
+					<div class="-bio">
+						<p>
+							Employee B, commonly known as "Roy Motloutsi".
+							Works in Software, Web Design and Web Development.
+							The "Lorem Ipsum" of human beings.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="work-view" class="-view" data-id="3">
+			<div class="f2 mt5">The Bread and Butter</div>
+		</div>
+		<div id="contact-view" class="-view tc" data-id="4">
+			<div class="f1 tc tracked mt1 pt4 pb5">Talk to us</div>
+			<div class="f3 tc -fade-in pb3">We're actually real people, and we're pretty cool(the coolest).</div>
+			<div class="-fade-in">
+				<div class="pa4 f2">
+					<span class="mdi mdi-phone"></span>
+					012 345 6789
+				</div>
+				<div class="pa4 f2">
+					<span class="mdi mdi-email"></span>
+					info@booleansandwiches.com
+				</div>
+				<div class="pa4 f2">
+					<a href="" class="black no-underline -hover-thm">
+						<span class="mdi mdi-map-marker"></span>
+						13 Lumo Street<br/>
+						Fig Town</br>
+						1999
+					</a>
+				</div><br/>
+
+				<a class="black -hover-thm no-underline mr2" href="">
+					<span class="mdi mdi-twitter mdi-36px"></span>
+				</a>
+				<a class="black -hover-thm no-underline" href="">
+					<span class="mdi mdi-instagram mdi-36px"></span>
+				</a>
+			</div>
+		</div>
+		<div class="-footer fixed bottom-0 left-0 pa2">
+			<span class="">&copy; Boolean Sandwiches 2018. All rights reserved.</span>
+		</div>
+	</div>
+	<!-- Mini like phone, version... yea, phone version -->
+	<div class="-show-xs">
+		<!-- Views -->
+		<div id="mob-home" data-id="0" class="-mob-view -active">
+			<div class="f2 tc ttu -thm pt4">
+				<b class="-acc">Boolean</b><br/>
+				Sandwiches
+			</div>
+			<img class="w-30 absolute -absolute-center" 
+				src="./images/bs-2.svg" alt="Boolean Sandwiches Logo">
+			<div class="-mob-social">
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-twitter mdi-36px"></span>
+				</a>
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-instagram mdi-36px"></span>
+				</a>
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-map-marker mdi-36px"></span>
+				</a>
+			</div>
+		</div>
+
+		<div id="mob-about" data-id="1" class="-mob-view ph3">
+				<div class="f4 tc ttu -thm tracked pv2 bg-white fixed top-0 left-0 w-100"><b class="-acc">Boolean</b> Sandwiches</div>
+				<article class="tl mt5">
+					<div class="-mob-title">Something about us</div>
+					<p class="-mob-text lh-copy"> 
+						No, we don't make sandwiches ... maybe not unless you ask 
+						nicely, and that's exactly what we are.
+						<br/><br/>
+						<b class="-acc">Boolean Sandwiches</b>
+						is a tech company with it's eye currently on web development.
+						<br/><br/>
+						
+						Our minimalistic approach allows us to focus on what needs to
+						be done, trimming unnecessary bloat to produce stunning,
+						responsive websites that perform well and look good on any device.
+						<br/><br/>
+
+						We can be a little weird sometimes, which is what makes us so great at
+						what we do.	
+						Oh, and feel free to call us 
+						<b class="-acc">Bit Sammies</b>, we know we do.
+						<br/><br/>
+						You made it this far? Looks like <i>someone</i> really like us. :)
+					</p><br/>
+				</article>
+		</div>
+		<div id="mob-team" data-id="2" class="-mob-view ph3">
+			<div class="f4 tc ttu -thm tracked pv2 bg-white fixed top-0 left-0 w-100"><b class="-acc">Boolean</b> Sandwiches</div>
+			<article class="tl mt5">
+				<div class="-mob-title">The Heart and Soul</div>
+				<p class="-mob-text lh-copy"> 
+					<b class="-acc">Boolean Sandwiches</b>
+					currently consists of 2 hard-working employees.
+					<br/><br/>
+					You can help keep our employees happy and reward them with your affection by clicking
+					<span class="mdi mdi-heart -hover-heart pointer"></span> and touching their hearts =)
+				<br/><br/>
+				</p>
+			</article>
+			<div class="-mob-profile">
+				<div class="-avatar">
+					<img class="-team-img" src="./images/serg.jpg" alt="">
+					<div class="-team-title">
+						Employee A<br/>	<br/>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-twitter"></span></a>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-instagram"></span></a>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-github-face"></span></a>
+						<span data-id="Serg" class="pointer black -hover-heart -heart mh2"><span class="mdi mdi-24px mdi-heart"></span></span>
+					</div>
+				</div>
+				<div class="-bio">
+					<p>
+						Employee A, commonly known as "Lesego Motea".
+						Works in Marketing, Web Design and Web Development.
+						This chap's a visionary.
+					</p>
+				</div>
+			</div><br/><br/>
+			<div class="-mob-profile">
+				<div class="-avatar">
+					<img class="-team-img" style="filter: grayscale(54%);" src="./images/roy.jpg" alt="">
+					<div class="-team-title">
+						Employee B<br/><br/>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-twitter"></span></a>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-instagram"></span></a>
+						<a class="black -hover-thm mh2" href=""><span class="mdi mdi-24px mdi-github-face"></span></a>
+						<span data-id="Roy" class="pointer black -hover-heart -heart mh2"><span class="mdi mdi-24px mdi-heart"></span></span>
+					</div>
+				</div>
+				<div class="-bio">
+					<p>
+						Employee B, commonly known as "Roy Motloutsi".
+						Works in Software, Web Design and Web Development.
+						The "Lorem Ipsum" of human beings.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="mob-work" data-id="3" class="-mob-view ph3">
+			<div class="f4 tc ttu -thm tracked pv2 bg-white fixed top-0 left-0 w-100"><b class="-acc">Boolean</b> Sandwiches</div>
+			<article class="tl mt5">
+				<div class="-mob-title">The Bread and Butter</div>				
+			</article>
+		</div>
+
+		<div id="mob-contact" data-id="4" class="-mob-view ph3">
+			<div class="f4 tc ttu -thm tracked pv2 bg-white fixed top-0 left-0 w-100"><b class="-acc">Boolean</b> Sandwiches</div>
+			<article class="tc mt5">
+				<div class="-mob-title">Talk to us</div>				
+				<p class="-mob-text">We're actually real people, and we're pretty cool(the coolest).</p>
+
+				<div class="pa2 f4">
+					<span class="mdi mdi-24px mdi-phone"></span>
+					<br/>
+					012 345 6789
+				</div><br/>
+				<div class="pa2 f4">
+					<span class="mdi mdi-24px mdi-email"></span>
+					<br/>
+					info@booleansandwiches.com
+				</div><br/>
+				<div class="pa2 f4">
+					<a href="" class="black no-underline -hover-thm">
+						<span class="mdi mdi-24px mdi-map-marker"></span>
+						<br/>
+						13 Lumo Street<br/>
+						Fig Town</br>
+						1999
+					</a>
+				</div><br/>
+			</article>
+		</div>
+		<!-- Mobile menu -->
+		<div class="fixed pt2 absolute--fill -mob-menu tc bg-white dn">
+			<div class="-menu-opts pt3">
+				<div id="mob-nav-home" data-id="0" class="f2 -hover-thm -mob-nav -active">Home</div>
+				<div id="mob-nav-about" data-id="1" class="f2 -hover-thm -mob-nav">About</div>
+				<div id="mob-nav-team" data-id="2" class="f2 -hover-thm -mob-nav">Team</div>
+				<div id="mob-nav-work" data-id="3" class="f2 -mob-nav-strike">Work</div>
+				<div id="mob-nav-contact" data-id="4" class="f2 -hover-thm -mob-nav">Contact</div>
+			</div>
+			<div class="-mob-social">
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-twitter mdi-36px"></span>
+				</a>
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-instagram mdi-36px"></span>
+				</a>
+				<a class="-ln mh3 -acc" href="">
+					<span class="mdi mdi-map-marker mdi-36px"></span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Menu button -->
+		<div class="-stacks">
+			<div class="-stack"></div>
+			<div class="-stack"></div>
+		</div>
+	</div>
+<script src="./site.js"></script>
+</body>
+</html>
